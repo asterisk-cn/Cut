@@ -101,7 +101,7 @@ public class TargetController : MonoBehaviour
 
     int CalculateScore(float extra)
     {
-        return (int)(1 - extra) * 100;
+        return (int)((1 - extra) * 100);
     }
 
     void ApplyScale()
