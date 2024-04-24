@@ -67,7 +67,7 @@ public class TargetController : MonoBehaviour
         if (answer >= Ratio)
         {
             var extra = answer - Ratio;
-            var score = CalculateScore(extra);
+            _score += CalculateScore(extra);
             Damage(extra);
         }
         else
