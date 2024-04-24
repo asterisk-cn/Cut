@@ -9,12 +9,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2687361493163677412, guid: c5c0176436be4e34a9ef2922f71f1638, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6331943232620636978}
+    - target: {fileID: 2687361493163677412, guid: c5c0176436be4e34a9ef2922f71f1638, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Restart
+      value: ResetGame
       objectReference: {fileID: 0}
     - target: {fileID: 2687361493163677412, guid: c5c0176436be4e34a9ef2922f71f1638, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameController, Assembly-CSharp
+      value: RetryButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4544319436568733944, guid: c5c0176436be4e34a9ef2922f71f1638, type: 3}
       propertyPath: m_Name

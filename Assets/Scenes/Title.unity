@@ -377,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7265605685600985248, guid: c2c5376362564d34d9c0cc48debcb68f, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.112766296
+      value: 0.14187989
       objectReference: {fileID: 0}
     - target: {fileID: 7265605685600985248, guid: c2c5376362564d34d9c0cc48debcb68f, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.7744674
+      value: 0.7162402
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Balloon
+  m_text: Cut
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60546cf328cdcaf42948f255ee5563ed, type: 2}
   m_sharedMaterial: {fileID: 4577706634506910765, guid: 60546cf328cdcaf42948f255ee5563ed, type: 2}

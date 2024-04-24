@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     [SerializeField]
-    GameObject _gameClearPanel;
-    [SerializeField]
     GameObject _gameOverPanel;
     [SerializeField]
     TextMeshProUGUI _scoreText;
@@ -28,21 +26,15 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        _gameClearPanel.SetActive(false);
         _gameOverPanel.SetActive(false);
 
         AudioManager.Instance.PlayBGM("Main");
     }
 
-    public void GameClear(int score)
-    {
-        _gameClearPanel.SetActive(true);
-        _scoreText.text = "Score: " + score;
-    }
-
-    public void GameOver()
+    public void GameOver(int score)
     {
         _gameOverPanel.SetActive(true);
+        _scoreText.text = "Score: " + score;
     }
 
 }

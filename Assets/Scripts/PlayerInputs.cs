@@ -7,6 +7,7 @@ public class PlayerInputs : MonoBehaviour
 {
     private PlayerInput _playerInput;
 
+    [HideInInspector]
     public bool fire;
 
     void Start()
